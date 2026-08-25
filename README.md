@@ -1,6 +1,11 @@
-# AI Invest
+<img width="2880" height="1608" alt="image" src="https://github.com/user-attachments/assets/06c5cb94-9ab2-43af-9068-9bfceeb68677" /># AI Invest
 
 AI Invest 是一款个人自用的原生 macOS SwiftUI 投资工作台，面向稳健的港股资产管理。它把持仓、策略、建议、行业研报和 4 周投资学习放在一个本地优先的应用中；不提供下单、改单或撤单能力。
+<img width="2880" height="1608" alt="image" src="https://github.com/user-attachments/assets/15d7cccf-0513-4286-93fa-6f3afc499fd8" />
+<img width="2880" height="1608" alt="image" src="https://github.com/user-attachments/assets/ca30cd7c-f86c-4459-9e20-26abd0a526ee" />
+<img width="2880" height="1608" alt="image" src="https://github.com/user-attachments/assets/b341d6f3-a5e1-40e1-a58f-a0c27cbc2b96" />
+
+
 
 ## MVP 已实现
 
