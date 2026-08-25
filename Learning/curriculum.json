@@ -1,0 +1,90 @@
+{
+  "course": {
+    "name": "28 天个人投资方法论",
+    "dailyMinutes": 20,
+    "durationDays": 28,
+    "finalOutcome": "个人投资手册 v1.0"
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "track": "资产配置",
+      "outcome": "形成资产配置与再平衡规则",
+      "units": [
+        {"id": "day-01", "day": 1, "title": "先定义目标，再谈收益", "objective": "把投资目标写成金额、期限和可承受损失"},
+        {"id": "day-02", "day": 2, "title": "风险不是波动这么简单", "objective": "区分永久损失、流动性风险和短期波动"},
+        {"id": "day-03", "day": 3, "title": "理解不同资产的角色", "objective": "明确股票、基金、债券、现金和高波动资产的职责"},
+        {"id": "day-04", "day": 4, "title": "分散真正分散的风险", "objective": "识别行业、地区和商业模式的重复风险"},
+        {"id": "day-05", "day": 5, "title": "确定目标配置与仓位上限", "objective": "把稳健风格转化为比例、区间和红线"},
+        {"id": "day-06", "day": 6, "title": "用再平衡代替择时冲动", "objective": "建立按时间或偏离幅度执行的规则"},
+        {"id": "day-07", "day": 7, "title": "完成资产配置 v1.0", "objective": "产出一页可执行的个人资产配置方案"}
+      ]
+    },
+    {
+      "week": 2,
+      "track": "基本面与选股",
+      "outcome": "形成可重复使用的选股评分卡",
+      "units": [
+        {"id": "day-08", "day": 8, "title": "先看懂公司怎么赚钱", "objective": "用客户、产品、定价和成本解释商业模式"},
+        {"id": "day-09", "day": 9, "title": "三张财务报表只抓主线", "objective": "理解利润、家底和现金如何互相验证"},
+        {"id": "day-10", "day": 10, "title": "判断利润质量", "objective": "用现金流、资本投入和一次性项目验证盈利"},
+        {"id": "day-11", "day": 11, "title": "寻找护城河，而不是好故事", "objective": "识别能在数据中验证的竞争优势"},
+        {"id": "day-12", "day": 12, "title": "评估管理层与资本配置", "objective": "判断管理层如何使用股东资金"},
+        {"id": "day-13", "day": 13, "title": "估值与安全边际", "objective": "用区间与关键假设理解价格和价值"},
+        {"id": "day-14", "day": 14, "title": "完成选股评分卡 v1.0", "objective": "建立从能力圈到证伪条件的统一流程"}
+      ]
+    },
+    {
+      "week": 3,
+      "track": "行业研究",
+      "outcome": "形成统一的行业分析模板",
+      "units": [
+        {"id": "day-15", "day": 15, "title": "画出行业价值链", "objective": "看清价值创造、传递和利润分布"},
+        {"id": "day-16", "day": 16, "title": "判断行业发展阶段", "objective": "区分导入、成长、成熟和衰退逻辑"},
+        {"id": "day-17", "day": 17, "title": "拆解供需与周期", "objective": "识别价格、库存、产能和需求反馈"},
+        {"id": "day-18", "day": 18, "title": "看竞争格局与集中度", "objective": "判断增长能否转化为股东回报"},
+        {"id": "day-19", "day": 19, "title": "找到少数关键指标", "objective": "选择可持续跟踪的核心与领先指标"},
+        {"id": "day-20", "day": 20, "title": "识别政策、技术与替代风险", "objective": "写出结构性风险、影响路径和信号"},
+        {"id": "day-21", "day": 21, "title": "完成行业模板 v1.0", "objective": "合并价值链、周期、竞争、指标和风险"}
+      ]
+    },
+    {
+      "week": 4,
+      "track": "综合实践",
+      "outcome": "完成个人投资手册 v1.0",
+      "units": [
+        {"id": "day-22", "day": 22, "title": "完成一份行业快照", "objective": "用统一模板研究一个港股相关行业"},
+        {"id": "day-23", "day": 23, "title": "完成一家公司分析", "objective": "形成包含反方证据和未知项的结论"},
+        {"id": "day-24", "day": 24, "title": "比较两家公司", "objective": "用同一口径比较质量、估值和风险"},
+        {"id": "day-25", "day": 25, "title": "审计当前组合", "objective": "检查配置、集中度、重复风险和持仓理由"},
+        {"id": "day-26", "day": 26, "title": "建立买入、持有与退出规则", "objective": "在行动前定义可复核的触发条件"},
+        {"id": "day-27", "day": 27, "title": "给组合做压力测试", "objective": "发现不可承受风险和被迫行动"},
+        {"id": "day-28", "day": 28, "title": "定稿个人投资手册 v1.0", "objective": "形成清晰、可执行、可复盘的方法论"}
+      ]
+    }
+  ],
+  "investorThinkingModules": [
+    {
+      "id": "warren-buffett",
+      "name": "沃伦·巴菲特",
+      "role": "企业所有者视角、能力圈与长期资本配置",
+      "relatedDays": [8, 11, 12, 13, 14, 26, 28],
+      "contextFile": "investors/warren-buffett.md"
+    },
+    {
+      "id": "charlie-munger",
+      "name": "查理·芒格",
+      "role": "多学科心智模型、激励机制与反向思考",
+      "relatedDays": [2, 11, 20, 27, 28],
+      "contextFile": "investors/charlie-munger.md"
+    },
+    {
+      "id": "duan-yongping",
+      "name": "段永平",
+      "role": "商业模式、企业文化、本分与不为清单",
+      "relatedDays": [8, 12, 13, 26, 28],
+      "contextFile": "investors/duan-yongping.md"
+    }
+  ],
+  "investorLearningRule": "不延长 28 天课程。相关日期选择一个最贴近主题的方法镜头，说明可迁移原则、适用条件、不能照搬之处和一条反向练习；不得模仿个股、仓位、时点或收益目标。"
+}

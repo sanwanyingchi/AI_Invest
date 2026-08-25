@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D00000000000000000000001 /* AIInvestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000001 /* AIInvestApp.swift */; };
+		D00000000000000000000002 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000002 /* AppModel.swift */; };
+		D00000000000000000000003 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000003 /* PreviewData.swift */; };
+		D00000000000000000000004 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000004 /* RootView.swift */; };
+		D00000000000000000000005 /* InvestmentModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000005 /* InvestmentModels.swift */; };
+		D00000000000000000000006 /* InvestmentServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000006 /* InvestmentServices.swift */; };
+		D00000000000000000000007 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000007 /* Theme.swift */; };
+		D00000000000000000000008 /* CommonComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000008 /* CommonComponents.swift */; };
+		D00000000000000000000009 /* HoldingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000009 /* HoldingsView.swift */; };
+		D0000000000000000000000A /* StrategyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000000000000000000000A /* StrategyView.swift */; };
+		D0000000000000000000000B /* AdviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000000000000000000000B /* AdviceView.swift */; };
+		D0000000000000000000000C /* ResearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000000000000000000000C /* ResearchView.swift */; };
+		D0000000000000000000000D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000000000000000000000D /* SettingsView.swift */; };
+		D0000000000000000000000E /* ManualHoldingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000000000000000000000E /* ManualHoldingStore.swift */; };
+		D0000000000000000000000F /* HoldingEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000000000000000000000F /* HoldingEditorSheet.swift */; };
+		D00000000000000000000010 /* InvestmentDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000010 /* InvestmentDatabase.swift */; };
+		D00000000000000000000011 /* TradeEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000011 /* TradeEditorSheet.swift */; };
+		D00000000000000000000012 /* LearningModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000012 /* LearningModels.swift */; };
+		D00000000000000000000013 /* LearningCurriculum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000013 /* LearningCurriculum.swift */; };
+		D00000000000000000000014 /* LearningWorkspaceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000014 /* LearningWorkspaceService.swift */; };
+		D00000000000000000000015 /* LearningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000015 /* LearningView.swift */; };
+		D00000000000000000000016 /* LongbridgeCLIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000016 /* LongbridgeCLIService.swift */; };
+		D00000000000000000000017 /* OpenAIResearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000017 /* OpenAIResearchService.swift */; };
+		D00000000000000000000018 /* CodexInvestmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000018 /* CodexInvestmentService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000003 /* AIInvest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIInvest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00000000000000000000001 /* AIInvestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIInvestApp.swift; sourceTree = "<group>"; };
+		C00000000000000000000002 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		C00000000000000000000003 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		C00000000000000000000004 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		C00000000000000000000005 /* InvestmentModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentModels.swift; sourceTree = "<group>"; };
+		C00000000000000000000006 /* InvestmentServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentServices.swift; sourceTree = "<group>"; };
+		C00000000000000000000007 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		C00000000000000000000008 /* CommonComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonComponents.swift; sourceTree = "<group>"; };
+		C00000000000000000000009 /* HoldingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsView.swift; sourceTree = "<group>"; };
+		C0000000000000000000000A /* StrategyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyView.swift; sourceTree = "<group>"; };
+		C0000000000000000000000B /* AdviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceView.swift; sourceTree = "<group>"; };
+		C0000000000000000000000C /* ResearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchView.swift; sourceTree = "<group>"; };
+		C0000000000000000000000D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C0000000000000000000000E /* ManualHoldingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualHoldingStore.swift; sourceTree = "<group>"; };
+		C0000000000000000000000F /* HoldingEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingEditorSheet.swift; sourceTree = "<group>"; };
+		C00000000000000000000010 /* InvestmentDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentDatabase.swift; sourceTree = "<group>"; };
+		C00000000000000000000011 /* TradeEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeEditorSheet.swift; sourceTree = "<group>"; };
+		C00000000000000000000012 /* LearningModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningModels.swift; sourceTree = "<group>"; };
+		C00000000000000000000013 /* LearningCurriculum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningCurriculum.swift; sourceTree = "<group>"; };
+		C00000000000000000000014 /* LearningWorkspaceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningWorkspaceService.swift; sourceTree = "<group>"; };
+		C00000000000000000000015 /* LearningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningView.swift; sourceTree = "<group>"; };
+		C00000000000000000000016 /* LongbridgeCLIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongbridgeCLIService.swift; sourceTree = "<group>"; };
+		C00000000000000000000017 /* OpenAIResearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIResearchService.swift; sourceTree = "<group>"; };
+		C00000000000000000000018 /* CodexInvestmentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexInvestmentService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00000000000000000000008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000001 /* AIInvest */,
+				A00000000000000000000002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00000000000000000000002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000003 /* AIInvest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000001 /* AIInvest */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000001 /* AIInvestApp.swift */,
+				B00000000000000000000002 /* App */,
+				B00000000000000000000003 /* Models */,
+				B00000000000000000000004 /* Services */,
+				B00000000000000000000005 /* Views */,
+			);
+			path = AIInvest;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000002 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000002 /* AppModel.swift */,
+				C00000000000000000000003 /* PreviewData.swift */,
+				C00000000000000000000004 /* RootView.swift */,
+				C00000000000000000000013 /* LearningCurriculum.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000005 /* InvestmentModels.swift */,
+				C00000000000000000000012 /* LearningModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000004 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000006 /* InvestmentServices.swift */,
+				C0000000000000000000000E /* ManualHoldingStore.swift */,
+				C00000000000000000000010 /* InvestmentDatabase.swift */,
+				C00000000000000000000014 /* LearningWorkspaceService.swift */,
+				C00000000000000000000016 /* LongbridgeCLIService.swift */,
+				C00000000000000000000017 /* OpenAIResearchService.swift */,
+				C00000000000000000000018 /* CodexInvestmentService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000007 /* Theme.swift */,
+				B00000000000000000000006 /* Components */,
+				B00000000000000000000007 /* Holdings */,
+				B00000000000000000000008 /* Strategy */,
+				B00000000000000000000009 /* Advice */,
+				B0000000000000000000000A /* Research */,
+				B0000000000000000000000B /* Settings */,
+				B0000000000000000000000C /* Learning */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000006 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000008 /* CommonComponents.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000007 /* Holdings */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000009 /* HoldingsView.swift */,
+				C0000000000000000000000F /* HoldingEditorSheet.swift */,
+				C00000000000000000000011 /* TradeEditorSheet.swift */,
+			);
+			path = Holdings;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000008 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				C0000000000000000000000A /* StrategyView.swift */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000009 /* Advice */ = {
+			isa = PBXGroup;
+			children = (
+				C0000000000000000000000B /* AdviceView.swift */,
+			);
+			path = Advice;
+			sourceTree = "<group>";
+		};
+		B0000000000000000000000A /* Research */ = {
+			isa = PBXGroup;
+			children = (
+				C0000000000000000000000C /* ResearchView.swift */,
+			);
+			path = Research;
+			sourceTree = "<group>";
+		};
+		B0000000000000000000000B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C0000000000000000000000D /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B0000000000000000000000C /* Learning */ = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000015 /* LearningView.swift */,
+			);
+			path = Learning;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000004 /* AIInvest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000006 /* Build configuration list for PBXNativeTarget "AIInvest" */;
+			buildPhases = (
+				A00000000000000000000007 /* Sources */,
+				A00000000000000000000008 /* Frameworks */,
+				A00000000000000000000009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AIInvest;
+			productName = AIInvest;
+			productReference = A00000000000000000000003 /* AIInvest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A00000000000000000000004 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = A00000000000000000000005 /* Build configuration list for PBXProject "AIInvest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = A00000000000000000000001;
+			productRefGroup = A00000000000000000000002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00000000000000000000004 /* AIInvest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00000000000000000000009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00000000000000000000007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00000000000000000000001 /* AIInvestApp.swift in Sources */,
+				D00000000000000000000002 /* AppModel.swift in Sources */,
+				D00000000000000000000003 /* PreviewData.swift in Sources */,
+				D00000000000000000000004 /* RootView.swift in Sources */,
+				D00000000000000000000005 /* InvestmentModels.swift in Sources */,
+				D00000000000000000000006 /* InvestmentServices.swift in Sources */,
+				D00000000000000000000007 /* Theme.swift in Sources */,
+				D00000000000000000000008 /* CommonComponents.swift in Sources */,
+				D00000000000000000000009 /* HoldingsView.swift in Sources */,
+				D0000000000000000000000A /* StrategyView.swift in Sources */,
+				D0000000000000000000000B /* AdviceView.swift in Sources */,
+				D0000000000000000000000C /* ResearchView.swift in Sources */,
+				D0000000000000000000000D /* SettingsView.swift in Sources */,
+				D0000000000000000000000E /* ManualHoldingStore.swift in Sources */,
+				D0000000000000000000000F /* HoldingEditorSheet.swift in Sources */,
+				D00000000000000000000010 /* InvestmentDatabase.swift in Sources */,
+				D00000000000000000000011 /* TradeEditorSheet.swift in Sources */,
+				D00000000000000000000012 /* LearningModels.swift in Sources */,
+				D00000000000000000000013 /* LearningCurriculum.swift in Sources */,
+				D00000000000000000000014 /* LearningWorkspaceService.swift in Sources */,
+				D00000000000000000000015 /* LearningView.swift in Sources */,
+				D00000000000000000000016 /* LongbridgeCLIService.swift in Sources */,
+				D00000000000000000000017 /* OpenAIResearchService.swift in Sources */,
+				D00000000000000000000018 /* CodexInvestmentService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A00000000000000000000011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+		};
+			name = Release;
+		};
+		A00000000000000000000012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "AI Invest";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.AIInvest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				OTHER_LDFLAGS = "-lsqlite3";
+			};
+			name = Debug;
+		};
+		A00000000000000000000013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "AI Invest";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.AIInvest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				OTHER_LDFLAGS = "-lsqlite3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000000000000000000005 /* Build configuration list for PBXProject "AIInvest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000010 /* Debug */,
+				A00000000000000000000011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000006 /* Build configuration list for PBXNativeTarget "AIInvest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000012 /* Debug */,
+				A00000000000000000000013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00000000000000000000000 /* Project object */;
+}

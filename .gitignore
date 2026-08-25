@@ -1,0 +1,18 @@
+.DS_Store
+DerivedData/
+Build/
+*.xcuserstate
+xcuserdata/
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+
+# Local application databases and journals
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
